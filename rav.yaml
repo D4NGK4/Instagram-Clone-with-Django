@@ -1,0 +1,6 @@
+scripts:
+    venv:
+      - venv/Scripts/activate
+    server:
+      - python manage.py runserver
+    

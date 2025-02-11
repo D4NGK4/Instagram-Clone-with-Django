@@ -1,6 +1,7 @@
 scripts:
-    venv:
-      - venv/Scripts/activate
-    server:
-      - python manage.py runserver
-    
+  server:
+    - python manage.py runserver
+  check:
+    - python manage.py check
+  migrate:
+    - python manage.py migrate
